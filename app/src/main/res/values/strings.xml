@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Parejas</string>
+    <string name="app_id">334311448111</string>
+    <string name="sign_in_failed">Fallo al conectar. Revisa la conexión e inténtalo de
+nuevo.</string>
+   <string name="app_misconfigured">La aplicación no está correctamente configurada.
+Revisa que el nombre del paquete y el la firma coinciden con el ID de cliente creado
+en Developer Console. Además si la aplicación no ha sido publicada, revisa que la
+cuenta con la que estás tratando de conectar está dada de alta en la lista de
+testers. Para más información revisa los logs.</string>
+    <string name="license_failed">Fallo en la validación de la licencia.</string>
+    <string name="unknown_error">Error desconocido.</string>
+    <string name="marcador_tiempoReal_id">CgkIr7yPtN0JEAIQAQ</string>
+    <string name="logro_invitar">CgkIr7yPtN0JEAIQAg</string>
+    <string name="logro_tiempoReal">CgkIr7yPtN0JEAIQAw</string>
+    <string name="evento_offline">CgkIr7yPtN0JEAIQBA</string>
+    <string name="evento_tiempoReal">CgkIr7yPtN0JEAIQBQ</string>
+    <string name="evento_porTurnos">CgkIr7yPtN0JEAIQBg</string>
+</resources>

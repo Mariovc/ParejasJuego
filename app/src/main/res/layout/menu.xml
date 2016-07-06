@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Desconectar"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Jugar"
+        android:id="@+id/btnJugar"
+        android:onClick="btnJugar_Click"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Partida en Tiempo Real"
+        android:id="@+id/btnPartidaEnTiempoReal"
+        android:onClick="btnPartidaEnTiempoReal_Click"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Invitar"
+        android:id="@+id/btnInvitar"
+        android:onClick="btnInvitar_Click"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Partida por turnos"
+        android:id="@+id/btnPartidaPorTurnos"
+        android:onClick="btnPartidaPorTurnos_Click"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcadores"
+        android:id="@+id/btnMarcadores"
+        android:onClick="btnMarcadores_Click"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Logros"
+        android:id="@+id/btnLogros"
+        android:onClick="btnLogros_Click"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Misiones"
+        android:id="@+id/btnMisiones"
+        android:onClick="btnMisiones_Click"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Regalos"
+        android:id="@+id/btnRegalos"
+        android:onClick="btnRegalos_Click"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Partidas guardadas"
+        android:id="@+id/btnPartidasGuardadas"
+        android:onClick="btnPartidasGuardadas_Click"/>
+</LinearLayout> 
